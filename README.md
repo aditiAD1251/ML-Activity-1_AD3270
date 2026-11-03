@@ -6,8 +6,8 @@ This repository contains the dataset preparation and exploratory data analysis (
 
 ## Files Included
 1. **Crop_recommendation.csv** – Original dataset.
-2. **Crop_Recommendation_Prepared.csv** – Cleaned and prepared dataset.
-3. **Activity1_Crop_Recommendation_Beginner_Colab.ipynb** – Google Colab notebook containing the complete implementation.
+2. **Prepared dataset csv 70.csv** – Cleaned and prepared dataset.
+3. **ML_NB_ACT_1(AD3270).ipynb** – Google Colab notebook containing the complete implementation.
 
 ## Dataset Source
 Kaggle Dataset: https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
