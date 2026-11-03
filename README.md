@@ -1,30 +1,60 @@
-# ML-Activity-1
-Dataset preparation and EDA of dataset.
 
-## Project Description
-This repository contains the dataset preparation and exploratory data analysis (EDA) performed on the Crop Recommendation dataset as part of Machine Learning Activity 1.
+# ML Activity 1 – Dataset Preparation and EDA
+
+## Course Details
+- **Course:** Machine Learning (ADPC509)
+- **Activity:** CIE 2 – Activity 1
+- **Department:** Artificial Intelligence and Data Science
+- **Semester:** V | **Academic Year:** 2026–27
+
+## Project Overview
+This activity focuses on dataset inspection, data-quality analysis, Exploratory Data Analysis (EDA), and data preprocessing using the Crop Recommendation Dataset.
+
+## Dataset Information
+- **Dataset:** Crop Recommendation Dataset
+- **Source:** [Kaggle – Crop Recommendation Dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset)
+- **Format:** CSV
+- **Original Shape:** 2,200 rows × 8 columns
+- **Features:** N, P, K, temperature, humidity, ph, rainfall
+- **Target:** label (crop category)
+
+The dataset contains soil nutrient and environmental information for 22 crop categories.
 
 ## Files Included
-1. **Crop_recommendation.csv** – Original dataset.
-2. **Prepared dataset csv 70.csv** – Cleaned and prepared dataset.
-3. **ML_NB_ACT_1(AD3270).ipynb** – Google Colab notebook containing the complete implementation.
+- `Crop_recommendation.csv` – Original dataset
+- `Prepared dataset csv 70.csv` – Prepared dataset
+- `ML_NB_ACT_1(AD3270).ipynb` – Completed implementation
+- `README.md` – Project documentation
 
-## Dataset Source
-Kaggle Dataset: https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
+## Tools and Libraries
+Python, Google Colab, Pandas, Matplotlib, Scikit-learn.
 
-## Tools and Libraries Used
-- Python
-- Pandas
-- Matplotlib
-- Scikit-learn
-- Google Colab
-
-## Activities Performed
-- Dataset inspection
-- Missing value analysis and handling
-- Duplicate checking
-- Exploratory Data Analysis (EDA)
-- Data visualization
-- Categorical encoding
-- Feature scaling
+## Work Performed
+- Dataset loading and inspection
+- Data type and statistical analysis
+- Missing value and duplicate checking
+- Exploratory Data Analysis and visualisation
+- Crop category encoding using LabelEncoder
+- Numerical feature scaling using StandardScaler
 - Exporting the prepared dataset
+
+## Key Results
+- Original records: 2,200
+- Missing values: 0
+- Duplicate records: 0
+- Crop categories: 22 (100 records per category)
+- Encoding: LabelEncoder
+- Scaling: StandardScaler
+- Final dataset shape: 2,200 rows × 9 columns
+
+## Conclusion
+The dataset was successfully inspected and prepared for future machine learning workflows. EDA, categorical encoding and feature scaling were performed, and the prepared dataset was saved separately without modifying the original data.
+
+## Faculty Profile and Acknowledgement
+
+**Faculty Profile:** [Princy2129](https://github.com/Princy2129)
+
+This project was completed as part of the Machine Learning CIE 2 activity. Faculty reference and Machine Learning learning resources:
+
+https://github.com/Princy2129
+
